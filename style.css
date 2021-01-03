@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    font-family: 'Bangers', cursive;
+}
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+img{
+    height: 70%;
+}
+
+div:hover{
+    background-color: lightgreen;
+}
+div:active{
+    background-color: red;
+}
